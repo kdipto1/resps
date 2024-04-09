@@ -221,6 +221,10 @@ li {
   padding-left: 78px;
 }
 
+.how-it-works_texts_section span {
+  color: var(--primary-color);
+}
+
 .how-it-works_texts_section p {
   /* font-family: Roboto; */
   font-size: 18px;
@@ -236,4 +240,17 @@ li {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+/* +++++++++ footer ++++++++++++ */
+footer {
+  margin-top: 276px;
+  background-color: hsla(0, 0%, 0%, 1);
+}
+
+footer p {
+  text-align: center;
+  color: hsla(0, 0%, 100%, 1);
+  padding-top: 28px;
+  padding-bottom: 29px;
 }
