@@ -17,6 +17,9 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: hsla(190, 100%, 78%, 1);
+  overflow-x: hidden;
+  max-width: 90rem;
+  margin: auto auto;
 }
 
 img,
@@ -96,12 +99,22 @@ li {
 
 /* +++++++++++++++++++++++++++  banner section ++++++++++++++++++++++++++++++++ */
 
+.banner {
+  position: relative;
+  display: flex;
+  margin-bottom: 18.75rem;
+}
+
 .banner-left h1 {
   /* font-family: Soliden Trial; */
   font-size: 2.6875rem;
   font-weight: 700;
   line-height: 3.01rem;
   text-align: left;
+  width: 33.375rem;
+  margin-top: 19.8125rem;
+  margin-left: 5.6875rem;
+  margin-bottom: 2.4375rem;
 }
 
 .banner-left span {
@@ -121,6 +134,8 @@ li {
   line-height: .98rem;
   letter-spacing: 0.13em;
   cursor: pointer;
+  margin-left: 10.875rem;
+  margin-right: .875rem;
 }
 
 .banner-left_btn2 {
@@ -134,6 +149,12 @@ li {
 
 }
 
+.banner-right img {
+  position: absolute;
+  width: 56.25rem;
+  top: 6.25rem;
+  right: 6.25rem;
+}
 
 /* ++++++++++++++++  card section ++++++++++++++++++++ */
 
@@ -141,6 +162,7 @@ li {
   display: flex;
   justify-content: space-around;
   margin-bottom: 6.5rem;
+  padding: 0 5.75rem 0 5.6875rem;
 }
 
 .card {
@@ -148,6 +170,8 @@ li {
   height: 23.5rem;
   border-radius: 1.25rem;
   background-color: hsla(0, 0%, 100%, 1);
+  box-shadow: .125rem .375rem .375rem 0rem hsla(0, 0%, 0%, 0.06);
+  box-shadow: .125rem .25rem .25rem 0rem hsla(0, 0%, 0%, 0.08) inset;
 }
 
 .card img {
